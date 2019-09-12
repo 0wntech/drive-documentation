@@ -5,6 +5,7 @@
 ```javascript
 import React from "react";
 import PropTypes from "prop-types";
+import styles from "./ComponentName.module.css";
 
 const ComponentName = props => {
   return <div></div>;
@@ -21,6 +22,7 @@ export default ComponentName;
 import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
+import styles from "./ComponentName.module.css";
 
 // export for testing purpose (without connected store)
 export const ComponentName = props => {
